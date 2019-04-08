@@ -73,4 +73,4 @@ There are some circumstances when Formalizr will not be able to collect data fro
 
 ----------
 
-For additional information check our FAQ page.
+For additional information check our [FAQ page](https://dennisbabkin.com/php/faq.php?what=formalizr).
