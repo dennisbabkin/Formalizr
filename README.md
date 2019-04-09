@@ -2,6 +2,11 @@
 *Formalizr, Google Chrome extension - "Remembers what you type, in case of a page crash."*
 
 
+### Release Files
+
+Can be [downloaded](https://dennisbabkin.com/formalizr/) as a Google Chrome extension.
+*(Note that release files are minified.)*
+
 
 ### Basic Operation
 
