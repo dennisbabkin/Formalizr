@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>__MSG_main_app_name__</title>
+<link rel="stylesheet" type="text/css" href="info.css">
+<link rel="stylesheet" href="code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+<script src="code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+
+<div id="mainDiv">
+    <div id="hdrTop">
+    	<div id="divHdrTop">
+        	<span id="idMoto">__MSG_main_app_description__</span>
+        </div>
+        <div id="divInfo">
+        	<span id="idVer"></span>
+            <span id="idCprght"></span>
+            <span><a href="#" id="idDev"></a></span>
+            <span id="idOpenSrc">__MSG_openSource__</span>
+            <span><a href="#" id="idCheckUpdts">__MSG_checkForUpdates__</a></span>
+        </div>
+    </div>
+    
+    <div id="divSavd"></div>
+    
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabAbout">__MSG_info_tabAbout__</a></li>
+        <li><a href="#tabManual">__MSG_info_tabManual__</a></li>
+        <li><a href="#tabTranslate">__MSG_info_tabTranslate__</a></li>
+        <li><a href="#tabFeedback">__MSG_info_tabFeedback__</a></li>
+      </ul>
+      
+      <div id="tabAbout">
+        <fieldset><legend>__MSG_msg_lgndAbout__</legend>
+        <div id="idAboutDesc" class="divDesc01">
+        	<p>__MSG_desc_lgndAbout_p1__</p>
+        	<p>__MSG_desc_lgndAbout_p2__</p>
+        </div>
+        <iframe id="idVid01" width="640" height="390" src="__MSG_vidUrl_Intro__" frameborder="0" allowfullscreen></iframe>
+        <a href="#" id="lnkFullScreen" class="lnkInline">__MSG_playFullScreen__</a>
+        </fieldset>
+        <fieldset><legend>__MSG_msg_lgndLegal__</legend>
+	       	<textarea readonly id="idTxtLegal">__MSG_txtLegal__</textarea>
+            <a href="#" id="idLnkOpenLegal" class="lnkInline">__MSG_lnk_open__</a>
+            <a href="#" id="idLnkCopyLegal" class="lnkInline">__MSG_lnk_copy__</a>
+        </fieldset>
+      </div>
+      
+      <div id="tabManual">
+        <fieldset><legend>__MSG_msg_lgndBasicOp__</legend>
+        	<div id="idManTxt01">__MSG_txtManual01__</div>
+        </fieldset>
+        <div class="divFootr01">
+            <img src="images/info_sgn32.png" width="16" height="16" alt="__MSG_info__">
+        	<span>__MSG_ftr_lgndBasicOp__</span>
+        </div>
+      </div>
+      
+      <div id="tabTranslate">
+        <fieldset><legend>__MSG_msg_lgndTranslate__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_desc_lgndTranslate__</p>
+            <select id="idLangsExsting" class="cmbDropDwn">
+            </select>
+        </div>
+        <div class="divDescBrdT">
+         	<p>__MSG_desc_lgndTranslate_p1__</p>
+            <ol>
+            	<li>__MSG_translateStage1__
+                    <select id="idLangsAvail" class="cmbDropDwn">
+                    </select></li>
+            	<li>__MSG_translateStage2__</li>
+            </ol>
+        </div>
+        <div class="divFootr01">
+            <img src="images/info_sgn32.png" width="16" height="16" alt="__MSG_info__">
+        	<span>__MSG_ftr_lgndTranslate__</span>
+        </div>
+        </fieldset>
+      </div>
+      
+      <div id="tabFeedback">
+        <fieldset><legend>__MSG_msg_lgndContactUs__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_desc_lgndContactUs__</p>
+        </div>
+       	<p>__MSG_desc_FAQpage__</p>
+       	<p>__MSG_desc_contactUs__</p>
+        </fieldset>
+        <fieldset><legend>__MSG_msg_lgndReportBug__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_desc_lgndReportBug__</p>
+        </div>
+       	<p>__MSG_desc_ReportBug__</p>
+        <ol>
+            <li>__MSG_reportBugStage1__
+                <input id="idReportBugURL" type="text"><a id="idVisitReportBugURL" class="hdrLink" href="#" target="_blank"></a></li>
+            <li>__MSG_reportBugStage2__
+            	<p>__MSG_collectReport__ <span id="idReportConf"></span></p></li>
+            <li>__MSG_reportBugStage3__</li>
+        </ol>
+        <div class="divFootr01">
+            <img src="images/info_sgn32.png" width="16" height="16" alt="__MSG_info__">
+        	<span>__MSG_ftr_lgndReportBug__</span>
+        </div>
+        </fieldset>
+        <fieldset><legend>__MSG_msg_lgndDonate__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_desc_lgndDonate__</p>
+        </div>
+       	<p>__MSG_desc_Donate__</p>
+        </fieldset>
+      </div>
+      
+    </div>
+    
+    <div id="dialog-legal" title="">
+    <p id="dialog-legal-msgbdy"></p>
+    </div>
+    
+</div>
+
+<script src="info.js"></script>
+</body>
+</html>

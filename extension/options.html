@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>__MSG_main_app_name__ - __MSG_options__</title>
+<link rel="stylesheet" type="text/css" href="options.css">
+<link rel="stylesheet" href="code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+<script src="code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+
+<div id="mainDiv">
+    <div id="hdrTop">
+    	<div id="divHdrTop">
+        	<span id="idMoto">__MSG_main_app_description__</span>
+        </div>
+        <div id="divInfo">
+        	<span id="idVer"></span>
+            <span id="idCprght"></span>
+            <span><a href="#" id="idDev"></a></span>
+            <span id="idOpenSrc">__MSG_openSource__</span>
+            <span><a href="#" id="idCheckUpdts">__MSG_checkForUpdates__</a></span>
+        </div>
+    </div>
+    
+    <div id="divSavd">
+    	<span></span>
+    </div>
+    
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabGeneral">__MSG_tab_General__</a></li>
+        <li><a href="#tabMemory">__MSG_tab_Memory__</a></li>
+        <li><a href="#tabStorage">__MSG_tab_Storage__</a></li>
+        <li><a href="#tabIncognito">__MSG_tab_Incognito__</a></li>
+        <li><a href="#tabExceptions">__MSG_tab_Exceptions__</a></li>
+        <li><a href="#tabAdvanced">__MSG_tab_Advanced__</a></li>
+      </ul>
+      
+      <div id="tabGeneral">
+        <div class="divChkbx01">
+            <label><input id="chkCollectData" type="checkbox" value="1">__MSG_msg_chkCollectData__</label>
+            <span>__MSG_desc_chkCollectData__</span>
+        </div>
+        <fieldset><legend>__MSG_msg_lgndGeneral1__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_desc_lgndGeneral1__</p>
+        </div>
+        <div class="divChkbx01">
+            <label><input id="chkSingleLine" type="checkbox" value="1">__MSG_msg_chkSingleLine__</label>
+            <span>__MSG_desc_chkSingleLine__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input id="chkMultiLine" type="checkbox" value="1">__MSG_msg_chkMultiLine__</label>
+            <span>__MSG_desc_chkMultiLine__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input id="chkFmtInput" type="checkbox" value="1">__MSG_msg_chkFmtInput__</label>
+            <span>__MSG_desc_chkFmtInput__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input id="chkNumberTbxs" type="checkbox" value="1">__MSG_msg_chkNumberTbxs__</label>
+            <span>__MSG_desc_chkNumberTbxs__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input id="chkSearchTbxs" type="checkbox" value="1">__MSG_msg_chkSearchTbxs__</label>
+            <span>__MSG_desc_chkSearchTbxs__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input id="chkURLTbxs" type="checkbox" value="1">__MSG_msg_chkURLTbxs__</label>
+            <span>__MSG_desc_chkURLTbxs__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input id="chkEmailTbxs" type="checkbox" value="1">__MSG_msg_chkEmailTbxs__</label>
+            <span>__MSG_desc_chkEmailTbxs__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input id="chkTelTbxs" type="checkbox" value="1">__MSG_msg_chkTelTbxs__</label>
+            <span>__MSG_desc_chkTelTbxs__</span>
+        </div>
+        <div class="divChkbx02">
+            <label><input id="chkColAutocmplt" type="checkbox" value="1">__MSG_msg_chkColAutocmplt__</label>
+            <span>__MSG_desc_chkColAutocmplt__</span>
+        </div>
+        <div class="divFootr01">
+            <img src="images/info_sgn32.png" width="16" height="16" alt="__MSG_info__">
+        	<span>__MSG_ftr_lgndGeneral1__</span>
+        </div>
+        </fieldset>
+        <div class="divRstDefs"><a href="#" id="idRstDefs_General">__MSG_msg_rst_defs__</a></div>
+      </div>
+      
+      <div id="tabMemory">
+        <fieldset><legend>__MSG_msg_lgndStgCpcty__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_msg_descLgndStgCpcty__</p>
+        </div>
+        <ul class="ulSldr01">
+        	<li>__MSG_msg_idSldrMaxNumPgs__ <p class="spnRangeVal" id="idSldrMaxNumPgs"></p>
+                <div class="divSldr">
+                <input type="button" id="idBtnLessMaxNumPgs" class="btnLess" value="&lt;" />
+                <input type="range" id="idRangeMaxNumPgs" class="ctrlRange" />
+                <input type="button" id="idBtnMoreMaxNumPgs" class="btnMore" value="&gt;" />
+                <div class="brk"></div>
+                <span class="lblLatest">__MSG_slider_less__</span>
+                <span class="lblOldest">__MSG_slider_more__</span>
+                </div>
+                <div class="brk"></div>
+	            <span class="smDsc">__MSG_desc_idSldrMaxNumPgs__</span>
+            </li>
+        	<li>__MSG_msg_idSldrMaxNumTbxPerPg__ <p class="spnRangeVal" id="idSldrMaxNumTbxPerPg"></p>
+                <div class="divSldr">
+                <input type="button" id="idBtnLessMaxNumTbxPerPg" class="btnLess" value="&lt;" />
+                <input type="range" id="idRangeMaxNumTbxPerPg" class="ctrlRange" />
+                <input type="button" id="idBtnMoreMaxNumTbxPerPg" class="btnMore" value="&gt;" />
+                <div class="brk"></div>
+                <span class="lblLatest">__MSG_slider_less__</span>
+                <span class="lblOldest">__MSG_slider_more__</span>
+                </div>
+                <div class="brk"></div>
+	            <span class="smDsc">__MSG_desc_idSldrMaxNumTbxPerPg__</span>
+            </li>
+        	<li>__MSG_msg_idSldrMaxNumEntrysPerTbx__ <p class="spnRangeVal" id="idSldrMaxNumEntrysPerTbx"></p>
+                <div class="divSldr">
+                <input type="button" id="idBtnLessMaxNumEntrysPerTbx" class="btnLess" value="&lt;" />
+                <input type="range" id="idRangeMaxNumEntrysPerTbx" class="ctrlRange" />
+                <input type="button" id="idBtnMoreMaxNumEntrysPerTbx" class="btnMore" value="&gt;" />
+                <div class="brk"></div>
+                <span class="lblLatest">__MSG_slider_less__</span>
+                <span class="lblOldest">__MSG_slider_more__</span>
+                </div>
+                <div class="brk"></div>
+	            <span class="smDsc">__MSG_desc_idSldrMaxNumEntrysPerTbx__</span>
+            </li>
+        </ul>
+        <div class="ftrStats">
+        	<span id="idFtrMemColWbPgs"></span>
+            <a href="#" id="idLnkApplyChngs" title="__MSG_promptLnk_apply_changes__">__MSG_lnk_apply_changes__</a>
+        </div>
+        </fieldset>
+        <fieldset id="idFsAdvMemOps"><legend>__MSG_msg_lgndAdvMemOps__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_msg_descLgndAdvMemOps__</p>
+        </div>
+        <a href="#" id="idLnkExportAll" class="lnkInline">__MSG_lnk_export_all__</a>
+        <a href="#" id="idLnkImportAll" class="lnkInline">__MSG_lnk_import_all__</a>
+        </fieldset>
+        <div class="divRstDefs"><a href="#" id="idRstDefs_Memory">__MSG_msg_rst_defs__</a></div>
+      </div>
+        
+      <div id="tabStorage">
+        <fieldset><legend>__MSG_msg_lgndPersistStg__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_msg_descLgndPersistStg__</p>
+        </div>
+        <div class="divChkbx01">
+            <label><input type="radio" id="radStgTypeNone" name="strgType" value="0">__MSG_radStgTypeNone__</label>
+            <span>__MSG_desc_radStgTypeNone__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input type="radio" id="radStgTypeLocalStorage" name="strgType" value="1">__MSG_radStgTypeLocalStorage__</label>
+            <span>__MSG_desc_radStgTypeLocalStorage__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input type="radio" id="radStgTypeChromeLocal" name="strgType" value="2">__MSG_radStgTypeChromeLocal__</label>
+            <span>__MSG_desc_radStgTypeChromeLocal__</span>
+        </div>
+        <fieldset><legend>__MSG_msg_lgndUsedStrg__</legend>
+        	<div id="idStrgUsg" style="width:453px; height: 14px">
+            	<canvas id="idSmplCvs"></canvas>
+            	<div id="idStrgUsgBar"></div>
+            </div>
+            <span class="spanDesc01">__MSG_descLgndUsedStrg__</span>
+            
+            <img id="idUsgBarSrc" src="images/usgbar.png">
+        </fieldset>
+        <div class="divFootr01" id="idLgndPersistStg">
+            <img src="images/info_sgn32.png" width="16" height="16" alt="__MSG_info__">
+        	<span>__MSG_ftr_lgndPersistStg__</span>
+        </div>
+        </fieldset>
+        <fieldset><legend>__MSG_msg_lgndClear__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_msg_descLgndClear__</p>
+        </div>
+        <a href="#" id="idLnkClearAll" class="lnkBlock">__MSG_lnk_clear_all__</a>
+        <a href="#" id="idLnkClearIncog" class="lnkBlock">__MSG_lnk_clear_incog__</a>
+        </fieldset>
+        <div class="divRstDefs"><a href="#" id="idRstDefs_Storage">__MSG_msg_rst_defs__</a></div>
+      </div>
+
+      <div id="tabIncognito">
+      	<div id="idIncogWarn">
+        	<img src="images/info_sgn32.png" width="16" height="16" alt="__MSG_info__">
+            <span>__MSG_msg_IncogWarn__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input id="chkCollectFromIncog" type="checkbox" value="1">
+            __MSG_msg_chkCollectFromIncog__</label>
+            <span>__MSG_desc_chkCollectFromIncog__</span>
+        </div>
+        <div class="divChkbx01">
+            <label><input id="chkSaveIncogData" type="checkbox" value="1">
+            __MSG_msg_chkSaveIncogData__</label>
+            <span>__MSG_desc_chkSaveIncogData__</span>
+        </div>
+        <fieldset><legend id="idLgndViewMxd">__MSG_msg_idLgndViewMxd__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_desc_idLgndViewMxd__</p>
+            <select id="idViewMxd" class="cmbDropDwn">
+            	<option value="0">__MSG_sel_cmbDropDwn_v0__</option>
+            	<option value="1">__MSG_sel_cmbDropDwn_v1__</option>
+            	<option value="2">__MSG_sel_cmbDropDwn_v2__</option>
+            </select>
+            <span id="idDescViewMxd" class="cmbDesc"></span>
+        </div>
+        </fieldset>
+        <div class="divRstDefs"><a href="#" id="idRstDefs_Incog">__MSG_msg_rst_defs__</a></div>
+      </div>
+
+      <div id="tabExceptions">
+        <fieldset><legend>__MSG_msg_lgndExceptions__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_msg_descLgndExceptions__</p>
+        </div>
+        <div id="divXcpts">
+            <table id="idTblXcptsHdr">
+                <thead>
+                    <tr>
+                        <th><input id="chkXcptsHdrAll" type="checkbox" value="1"></th>
+                        <th>__MSG_xcptsHdr_urls__</th>
+                    </tr>
+                </thead>
+            </table>
+            <div id="idDivXcpts">
+            <table id="idTblXcpts">
+                <tbody id="idBdyTblXcpts">
+                </tbody>
+            </table>
+            </div>
+        </div>
+        <a href="#" id="idLnkXcptsEdit" class="lnkInline">__MSG_lnk_xcpts_edit__</a>
+        <a href="#" id="idLnkXcptsRemove" class="lnkInline">__MSG_lnk_xcpts_remove__</a>
+        <a href="#" id="idLnkXcptsAddNew" class="lnkInline">__MSG_lnk_xcpts_add_new__</a>
+        <a href="#" id="idLnkXcptsAddCurrent" class="lnkInline">__MSG_lnk_xcpts_addCurrent__</a>
+        </fieldset>
+        <div class="divRstDefs"><a href="#" id="idRstDefs_Xcpts">__MSG_msg_rst_defs__</a></div>
+	  </div>
+      
+      <div id="tabAdvanced">
+        <div class="divChkbx01">
+            <label><input id="chkUseNtvScrlBrs" type="checkbox" value="1">
+            __MSG_msg_chkUseNtvScrlBrs__</label>
+            <span>__MSG_desc_chkUseNtvScrlBrs__</span>
+        </div>
+        <fieldset><legend>__MSG_msg_lgndCopyTxtOpt__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_desc_lgndCopyTxtOpt__</p>
+            <select id="idCopyTxtOpt" class="cmbDropDwn">
+            	<option value="0">__MSG_sel_CopyTxtOpt_0__</option>
+            	<option value="1">__MSG_sel_CopyTxtOpt_1__</option>
+            	<option value="2">__MSG_sel_CopyTxtOpt_2__</option>
+            	<option value="3">__MSG_sel_CopyTxtOpt_3__</option>
+            </select>
+        </div>
+        </fieldset>
+        <fieldset><legend>__MSG_msg_lgndAdvDataMngmnt__</legend>
+        <div class="divFootr02">
+            <img src="images/info_sgn32.png" width="16" height="16" alt="__MSG_info__">
+        	<span>__MSG_desc_lgndAdvDataMngmnt__</span>
+        </div>
+        <ul class="ulSldr01">
+        	<li>__MSG_msg_idSldrDataColFreq__ <p class="spnRangeVal" id="idSldrDataColFreq"></p>
+                <div class="divSldr">
+                <input type="button" id="idBtnLessDataColFreq" class="btnLess" value="&lt;" />
+                <input type="range" id="idRangeDataColFreq" class="ctrlRange" />
+                <input type="button" id="idBtnMoreDataColFreq" class="btnMore" value="&gt;" />
+                <div class="brk"></div>
+                <span class="lblLatest">__MSG_slider_faster__</span>
+                <span class="lblOldest">__MSG_slider_slower__</span>
+                </div>
+                <div class="brk"></div>
+	            <span class="smDsc">__MSG_desc_idSldrDataColFreq__</span>
+            </li>
+        	<li>__MSG_msg_idSldrPersistSaveFreq__ <p class="spnRangeVal" id="idSldrPersistSaveFreq"></p>
+                <div class="divSldr">
+                <input type="button" id="idBtnLessPersistSaveFreq" class="btnLess" value="&lt;" />
+                <input type="range" id="idRangePersistSaveFreq" class="ctrlRange" />
+                <input type="button" id="idBtnMorePersistSaveFreq" class="btnMore" value="&gt;" />
+                <div class="brk"></div>
+                <span class="lblLatest">__MSG_slider_faster__</span>
+                <span class="lblOldest">__MSG_slider_slower__</span>
+                </div>
+                <div class="brk"></div>
+	            <span class="smDsc">__MSG_desc_idSldrPersistSaveFreq__</span>
+            </li>
+        </ul>
+        <div class="divChkbx01">
+            <label><input id="chkIdAndNm" type="checkbox" value="1">__MSG_msg_chkIdAndNm__</label>
+            <span>__MSG_desc_chkIdAndNm__</span>
+        </div>
+        </fieldset>
+        <fieldset><legend>__MSG_msg_lgndAdvSttgsMgmt__</legend>
+        <div class="divDesc01">
+        	<p>__MSG_msg_descLgndAdvSttgsMgmt__</p>
+        </div>
+        <a href="#" id="idLnkExportSttgsAll" class="lnkInline">__MSG_lnk_export_sttgs_all__</a>
+        <a href="#" id="idLnkImportSttgsAll" class="lnkInline">__MSG_lnk_import_sttgs_all__</a>
+        </fieldset>
+        <div class="divRstDefs"><a href="#" id="idRstDefs_Adv">__MSG_msg_rst_defs__</a></div>
+      </div>
+
+    </div>
+    
+    <div id="dialog-impexp" title="">
+    <p id="dialog-impexp-msgbdy"></p>
+    </div>
+    
+    <div id="dialog-xcpts" title="">
+    <p id="dialog-xcpts-msgbdy"></p>
+    </div>
+    
+    <div id="dialog-confirm" title="">
+    <p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span><span id="dialog-confirm-msgtxt"></span></p>
+    </div>
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>

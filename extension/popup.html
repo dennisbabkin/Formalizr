@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>__MSG_main_app_name__</title>
+<link rel="stylesheet" type="text/css" href="popup.css">
+<link rel="stylesheet" href="code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+<script src="code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+</head>
+<body>
+
+<div class="topLogo">
+	<div class="topLogoImg">
+		<img src="images/app-logo_med.png" width="150" height="49" draggable="false" id="idPopupLogo" />
+        <span id="idMoto">__MSG_main_app_description__</span>
+    </div>
+    <div class="topToolbar">
+    	<a href="#" id="tbBtnOnOff" draggable="false" class="toolbarBtnOn toolbarBtn"></a><a href="#" id="tbBtnSettings" draggable="false" title="__MSG_promptToolbarButton_Settings__" class="toolbarBtnSettings toolbarBtn"></a><a href="#" id="tbBtnInfo" draggable="false" title="__MSG_promptToolbarButton_Info__" class="toolbarBtnInfo toolbarBtn"></a>
+  </div>
+</div>
+
+<div id="mainSection">
+	<img src="images/spnr.gif" draggable="false" id="initSpnr" alt="__MSG_prompt_Loading__" />
+	<div id="accordion">
+    </div>
+
+    <div id="dialog-confirm" title="">
+    <p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span><span id="dialog-confirm-msgtxt"></span></p>
+    </div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
