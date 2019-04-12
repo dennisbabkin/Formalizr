@@ -68,8 +68,8 @@ gl = {
 	//				'frms'	Object with data for all iframes in this page. Its properties:
 	//						 Keys = 	Frame URLs (or "." for the main page) -- for IFRAMEs it may be: "n>URL", where n is IFRAME index
 	//						 Values = 	Object for each textbox data with the following properties:
-    //                                   Keys =     Textbox special ID (used in this struct, as html ID, followed by html name)
-    //                                   Values =   Object for the textbox with the following properties:
+	//                                   Keys =     Textbox special ID (used in this struct, as html ID, followed by html name)
+	//                                   Values =   Object for the textbox with the following properties:
 	//						                         'si'		 [integer] Sequential integer/index for this textbox -- trying to make it unique for all ctrls on this page
 	//												 'osi'		 [integer] Original sequential integer/index for this textbox, assigned by the element's order in content script
 	//						                         'id'		 [string] html ID of the element (can be 'null' or "" if no such)
@@ -87,7 +87,7 @@ gl = {
 		appVersion: "",				//[String] This app's version number that these settings were saved from (will be set later) -- used for authentication & checks of settings when loading from persistent storage
 
 		bCollectData: true,			//true to allow data collection from visted web pages (overrides 'bIncogCollectData')
-		bIncogCollectData: true,	//true to allow data collection from visted web pages opened in the "Incognito" tabs (can be overridden by 'bCollectData')
+		bIncogCollectData: true,		//true to allow data collection from visted web pages opened in the "Incognito" tabs (can be overridden by 'bCollectData')
 
 		nCollectFlgs: 0x200FF,		//Bitwise integer specifying which textboxes to collect & how:
 									// 0x1 =		collect textarea
@@ -154,7 +154,7 @@ gl = {
 
 	gnMaxExcepts: 64,				//Maximum number of allowed exceptions in 'gSettings.arrExcepts'
 
-	gstrLastVisitedTabURL: "",		//URL of the last active, or visited tab (may be "" if not known)
+	gstrLastVisitedTabURL: "",			//URL of the last active, or visited tab (may be "" if not known)
 
 	//Global value that holds which platform this app is running on
 	gPlatform: 0,					//One of the following values:		
@@ -169,7 +169,7 @@ gl = {
 	},
 
 	gConsoleCache: [],				//[array] Cached console.*() method submissions (used for bug reporting) -- each item is [string]
-	gnMaxConsoleCacheLen: 1024,		//Maximum number of entries in 'gl.gConsoleCache' before recycling old entries
+	gnMaxConsoleCacheLen: 1024,			//Maximum number of entries in 'gl.gConsoleCache' before recycling old entries
 
 
 
@@ -205,7 +205,7 @@ gl = {
 		var frameUrl = data.pageURL;			//IFRAME URL within the page concatenated with iframe index
 		var bIFrame = data.bIFrame; 			//'true' if this data came from an IFRAME
 		var iframeInd = data.ifrmI;				//Index of the IFRAME, or "" for main page (example: "2" or "0_4" for a nested IFRAME)
-        var bIncogTab =	data.incg;				//'true' if this tab was opened for Incognito browsing
+		var bIncogTab =	data.incg;				//'true' if this tab was opened for Incognito browsing
 
 		//In case of not IFRAME, remove frameURL to simple period (this will save memory when saving in persistent storage)
 		if(!bIFrame)
