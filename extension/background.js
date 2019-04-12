@@ -2643,23 +2643,6 @@ gl = {
 				}
 				
 
-//data.arrExcepts.push({
-//	mt:	"http://www.msn.com/",		//[string] match string, cannot be empty (always in lower case!)
-//	tp: 0		//type of the match
-//});
-//data.arrExcepts.push({
-//	mt:	"amazon.com",		//[string] match string, cannot be empty (always in lower case!)
-//	tp: 1		//type of the match
-//});
-//data.arrExcepts.push({
-//	mt:	"http://wonderwall.msn.com/movies/jennifer-lawrence-targeted-again-hacker-leaks-55-new-nude-photos-1841302.story",		//[string] match string, cannot be empty (always in lower case!)
-//	tp: 0		//type of the match
-//});
-//data.arrExcepts.push({
-//	mt:	"www.dennisbabkin.com",		//[string] match string, cannot be empty (always in lower case!)
-//	tp: 2		//type of the match
-//});
-
 
 			
 				//At this point we can use the settings!
