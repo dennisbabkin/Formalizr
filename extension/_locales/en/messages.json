@@ -1,0 +1,994 @@
+{
+	"main_app_name": {
+		"message": "Formalizr",
+		"description": "Do not change!"
+	},
+	"main_app_name_12chars": {
+		"message": "Formalizr",
+		"description": "Do not change!"
+	},
+	"main_app_description": {
+		"message": "Remembers what you type, in case of a page crash.",
+		"description": "App description. Keep very short."
+	},
+	"main_app_description_longer": {
+		"message": "Remembers what you type in web pages to be able to restore it in case of a page crash.",
+		"description": "App description. Slightly longer version."
+	},
+
+	"msg_no_data": {
+		"message": "There's no page data collected yet...",
+		"description": "Message displayed if there's no data yet collected."
+	},
+	"msg_err_contents01": {
+		"message": "Error displaying contents...",
+		"description": "Error message displayed if there's an error displaying contents of the popup window page."
+	},
+	"slider_latest": {
+		"message": "Latest",
+		"description": "Text for slider for 'Latest' range"
+	},
+	"slider_oldest": {
+		"message": "Oldest",
+		"description": "Text for slider for 'Oldest' range"
+	},
+	"lnk_open": {
+		"message": "Open",
+		"description": "Link name that opens a resource"
+	},
+	"lnk_copy": {
+		"message": "Copy",
+		"description": "Link name that copies data onto Clipboard"
+	},
+	"lnk_form_fill": {
+		"message": "Form Fill",
+		"description": "Link name that fills form data on the page"
+	},
+	"lnk_copy_all": {
+		"message": "Copy All",
+		"description": "Link name that copies all page data onto Clipboard"
+	},
+	"lnk_remove_page": {
+		"message": "Remove Page Data",
+		"description": "Link name that removes all data for the page"
+	},
+	"lnk_done": {
+		"message": "Done",
+		"description": "Copy link confirmation message when data is copied to Clipboard"
+	},
+	"lnk_close": {
+		"message": "Close",
+		"description": "Link name that closes a window"
+	},
+	"lnk_import": {
+		"message": "Import",
+		"description": "Link name that imports data"
+	},
+
+	"info": {
+		"message": "Info",
+		"description": "Information"
+	},
+	"msg_saved": {
+		"message": "Saved:",
+		"description": "Message for when data was saved. It will be followed by the date & time, and thus we added a colon at the end."
+	},
+	"msg_incognito": {
+		"message": "Incognito",
+		"description": "Name for the 'Incognito' browsing mode in Chrome."
+	},
+	"msg_more_txbxs_available": {
+		"message": "More text boxes were available",
+		"description": "Message for when more text boxes were available for saving on page"
+	},
+	"msg_title_pg_remove": {
+		"message": "Confirm Page Data Removal",
+		"description": "Title bar message for the modal dialog that confirms page removal. Keep it short."
+	},
+	"msg_pg_remove": {
+		"message": "Do you want to delete all data collected for this page?",
+		"description": "Message that asks a user whether or not they want to remove all data on the page. It will be displayed in a modal window and a user will have an option to remove or to cancel."
+	},
+	"msg_copied_ok": {
+		"message": "Copied to the Clipboard",
+		"description": "Message for when data was copied to the Clipboard."
+	},
+	"msg_collect_err": {
+		"message": "Error collecting",
+		"description": "Message for when data was not collected."
+	},
+	
+	"btn_cancel": {
+		"message": "Cancel",
+		"description": "Button name for 'Cancel' an action."
+	},
+	"btn_ok": {
+		"message": "OK",
+		"description": "Button name for 'OK'. Must be provided in all-caps for emphasis."
+	},
+	"btn_remove": {
+		"message": "REMOVE",
+		"description": "Button name for permanently 'Remove' an item. Must be provided in all-caps for emphasis."
+	},
+	"btn_reset": {
+		"message": "RESET",
+		"description": "Button name for permanently 'Resetting' an item. Must be provided in all-caps for emphasis."
+	},
+	"btn_add": {
+		"message": "Add",
+		"description": "Button name for 'Add' item."
+	},
+	
+	"promptToolbarButton_On" : {
+		"message": "Turn off data collection",
+		"description": "User prompt for the On/Off toolbar button in the popup window, when it's in the ON position. Since it's a toggle button, the message is what happens when a user clicks it, and thus for the OFF position."
+	},
+	"promptToolbarButton_Off" : {
+		"message": "Turn on data collection",
+		"description": "User prompt for the On/Off toolbar button in the popup window, when it's in the OFF position. Since it's a toggle button, the message is what happens when a user clicks it, and thus for the ON position."
+	},
+	"promptToolbarButton_Settings" : {
+		"message": "Show options",
+		"description": "User prompt for the options toolbar button in the popup window"
+	},
+	"promptToolbarButton_Info" : {
+		"message": "Show app information",
+		"description": "User prompt for the Information toolbar button in the popup window"
+	},
+	"prompt_OpenPage" : {
+		"message": "Open Page",
+		"description": "User prompt for a button that opens a web page"
+	},
+	"prompt_Loading" : {
+		"message": "Loading...",
+		"description": "User prompt when a web page is loading"
+	},
+	"prompt_more_txbxs_available" : {
+		"message": "Go to the Options window (Memory tab) and adjust 'Maximum number of text boxes per web page'",
+		"description": "User prompt for the link where more text boxes were available for saving on page"
+	},
+	"prompt_Disabled" : {
+		"message": "Disabled",
+		"description": "User prompt for when data collection is disabled"
+	},
+	"prompt_Exception" : {
+		"message": "Exception",
+		"description": "User prompt for when data collection is off because of the URL `exception`"
+	},
+
+	"tab_General" : {
+		"message": "General",
+		"description": "Name of the 'General' tab in the Options page"
+	},
+	"tab_Memory" : {
+		"message": "Memory",
+		"description": "Name of the 'Memory' tab in the Options page"
+	},
+	"tab_Storage" : {
+		"message": "Storage",
+		"description": "Name of the 'Storage' tab in the Options page"
+	},
+	"tab_Incognito" : {
+		"message": "Incognito",
+		"description": "Name of the 'Incognito' tab in the Options page"
+	},
+	"tab_Exceptions" : {
+		"message": "Exceptions",
+		"description": "Name of the 'Exceptions' tab in the Options page"
+	},
+	"tab_Advanced" : {
+		"message": "Advanced",
+		"description": "Name of the 'Advanced' tab in the Options page"
+	},
+	
+	"options" : {
+		"message": "Options",
+		"description": "Name for the program options page"
+	},
+	"version_num" : {
+		"message": "Version: #V#",
+		"description": "Program version, where #V# will be replaced with the actual version number"
+	},
+	"copyright_msg" : {
+		"message": "Copyright (C) #Y#",
+		"description": "Copyright statement, where #Y# will be replaced with the copyright year"
+	},
+	"openSource" : {
+		"message": "(This is an <a href=\"#U#\" target=\"_blank\">Open Source</a> project.)",
+		"description": "Allows to download the source code for this project"
+	},
+	"checkForUpdates" : {
+		"message": "Check for updates",
+		"description": "Link that allows to check for updates for this app"
+	},
+	"msg_no_update" : {
+		"message": "There's no update...",
+		"description": "Short message that is displayed when the update for this app is not available"
+	},
+	"msg_yes_update" : {
+		"message": "Install update: #V#",
+		"description": "Short message that is displayed when the update for this app is available, where #V# will be replaced with the update version number. If clicked this link will install the available update."
+	},
+	"msg_err_update" : {
+		"message": "Error checking",
+		"description": "Short message that is displayed when failed to check for update for this app"
+	},
+	"msg_save_ok" : {
+		"message": "Saved changes",
+		"description": "Short message that is displayed when data was successfully saved"
+	},
+	"msg_remove_ok" : {
+		"message": "Removed data",
+		"description": "Short message that is displayed when data was successfully removed"
+	},
+	"msg_import_ok" : {
+		"message": "Imported data",
+		"description": "Short message that is displayed when data was successfully imported"
+	},
+	"msg_save_err" : {
+		"message": "Saving failed",
+		"description": "Short message that is displayed when saving data failed"
+	},
+	"msg_rst_defs" : {
+		"message": "Reset to defaults",
+		"description": "Short name for the link to reset an Options window page controls to their defaults"
+	},
+	"msg_err_general" : {
+		"message": "General error",
+		"description": "Short message that is displayed when generic error takes place."
+	},
+
+	"msg_lgndGeneral1" : {
+		"message": "Collect Data From",
+		"description": "Short name for the control in the General tab in the Options window."
+	},
+	"desc_lgndGeneral1" : {
+		"message": "This app will attempt to remember what you typed or pasted into the following types of controls on web pages that you visit:",
+		"description": "Description for the 'Collect Data From' section of the General tab in the Options window."
+	},
+	
+	"msg_chkCollectData" : {
+		"message": "Collect data from web pages",
+		"description": "Short name for the checkbox in the General tab in the Options window."
+	},
+	"desc_chkCollectData" : {
+		"message": "When checked will remember what you typed or pasted into web pages.",
+		"description": "Description for the checkbox in the General tab in the Options window."
+	},
+	"msg_chkSingleLine" : {
+		"message": "Single-line general input text boxes",
+		"description": "Short name for the checkbox in the General tab in the Options window."
+	},
+	"desc_chkSingleLine" : {
+		"message": "Includes old-style plain text box controls allowing user input on a single line.",
+		"description": "Description for the checkbox in the General tab in the Options window."
+	},
+	"msg_chkMultiLine" : {
+		"message": "Multi-line general input text boxes",
+		"description": "Short name for the checkbox in the General tab in the Options window."
+	},
+	"desc_chkMultiLine" : {
+		"message": "Includes old-style plain text box controls allowing user input on more than one line.",
+		"description": "Description for the checkbox in the General tab in the Options window."
+	},
+	"msg_chkFmtInput" : {
+		"message": "Formatted input text boxes",
+		"description": "Short name for the checkbox in the General tab in the Options window."
+	},
+	"desc_chkFmtInput" : {
+		"message": "Includes controls allowing formatted user input on one or multiple lines of text.",
+		"description": "Description for the checkbox in the General tab in the Options window."
+	},
+	"msg_chkNumberTbxs" : {
+		"message": "Numbers-only text boxes",
+		"description": "Short name for the checkbox in the General tab in the Options window."
+	},
+	"desc_chkNumberTbxs" : {
+		"message": "Includes special plain text box controls allowing user input of numbers on a single line.",
+		"description": "Description for the checkbox in the General tab in the Options window."
+	},
+	"msg_chkSearchTbxs" : {
+		"message": "Search word text boxes",
+		"description": "Short name for the checkbox in the General tab in the Options window."
+	},
+	"desc_chkSearchTbxs" : {
+		"message": "Includes special plain text box controls allowing user input of search words on a single line.",
+		"description": "Description for the checkbox in the General tab in the Options window."
+	},
+	"msg_chkURLTbxs" : {
+		"message": "URL text boxes",
+		"description": "Short name for the checkbox in the General tab in the Options window."
+	},
+	"desc_chkURLTbxs" : {
+		"message": "Includes special plain text box controls allowing user input of URLs on a single line.",
+		"description": "Description for the checkbox in the General tab in the Options window."
+	},
+	"msg_chkEmailTbxs" : {
+		"message": "Email text boxes",
+		"description": "Short name for the checkbox in the General tab in the Options window."
+	},
+	"desc_chkEmailTbxs" : {
+		"message": "Includes special plain text box controls allowing user input of email addresses on a single line.",
+		"description": "Description for the checkbox in the General tab in the Options window."
+	},
+	"msg_chkTelTbxs" : {
+		"message": "Telephone number text boxes",
+		"description": "Short name for the checkbox in the General tab in the Options window."
+	},
+	"desc_chkTelTbxs" : {
+		"message": "Includes special plain text box controls allowing user input of telephone numbers on a single line.",
+		"description": "Description for the checkbox in the General tab in the Options window."
+	},
+	"msg_chkColAutocmplt" : {
+		"message": "Collect data from text boxes with autocomplete disabled",
+		"description": "Short name for the checkbox in the General tab in the Options window."
+	},
+	"desc_chkColAutocmplt" : {
+		"message": "When checked will allow collection of data from text boxes with autocomplete feature disabled.",
+		"description": "Description for the checkbox in the General tab in the Options window."
+	},
+	"ftr_lgndGeneral1" : {
+		"message": "For security reasons this app does not collect what you type in password fields. To remember your passwords securely, use a <a href='https://www.google.com/search?q=password+manager' target='_blank'>password manager</a>.",
+		"description": "Description displayed at the bottom of the 'Collect Data From' section of the General tab in the Options window. Make sure to preserve the html <a> link parameters."
+	},
+
+	"msg_IncogWarn" : {
+		"message": "To use controls on this page you need to allow this app to run in incognito mode in <a id='linkSettings'>Settings</a>.",
+		"description": "Warning displayed on top of the Incognito tab in the Options window if the app is not enabled to run in incognito mode. Make sure to preserve the HTML link and its ID for 'Settings'."
+	},
+	"msg_chkCollectFromIncog" : {
+		"message": "Collect data from incognito tabs",
+		"description": "Short name for the checkbox in the Incognito tab in the Options window."
+	},
+	"desc_chkCollectFromIncog" : {
+		"message": "When checked will temporarily remember what you typed or pasted into web pages opened for incognito browsing.",
+		"description": "Description for the checkbox in the Incognito tab in the Options window."
+	},
+	"msg_chkSaveIncogData" : {
+		"message": "Save data collected from incognito tabs when browser is closed",
+		"description": "Short name for the checkbox in the Incognito tab in the Options window."
+	},
+	"desc_chkSaveIncogData" : {
+		"message": "When checked will save data collected from web pages opened for incognito browsing in persistent storage when the browser is closed. Otherwise collected data will be discarded.",
+		"description": "Description for the checkbox in the Incognito tab in the Options window."
+	},
+	"msg_idLgndViewMxd" : {
+		"message": "Viewing of Mixed Content",
+		"description": "Short name for the control in the Incognito tab in the Options window."
+	},
+	"desc_idLgndViewMxd" : {
+		"message": "Defines how data collected from web pages opened for incognito browsing can be viewed:",
+		"description": "Description for the control in the Incognito tab in the Options window."
+	},
+	"sel_cmbDropDwn_v0" : {
+		"message": "Always allow viewing of mixed content",
+		"description": "Selection for the control in the Incognito tab in the Options window."
+	},
+	"sel_cmbDropDwn_v1" : {
+		"message": "Allow viewing of mixed content from incognito tab only",
+		"description": "Selection for the control in the Incognito tab in the Options window."
+	},
+	"sel_cmbDropDwn_v2" : {
+		"message": "Do not allow viewing of mixed content",
+		"description": "Selection for the control in the Incognito tab in the Options window."
+	},
+	"desc_cmbDropDwn_v0" : {
+		"message": "Allow to view data collected from web pages opened for regular and incognito browsing from both regular and incognito tabs.",
+		"description": "Description for the control in the Incognito tab in the Options window."
+	},
+	"desc_cmbDropDwn_v1" : {
+		"message": "Allow to view data collected from web pages opened for regular and incognito browsing from ingonito tabs only. Regular tabs will be able to view only data collected from web pages opened for regular browsing.",
+		"description": "Description for the control in the Incognito tab in the Options window."
+	},
+	"desc_cmbDropDwn_v2" : {
+		"message": "Allow to view data collected from web pages opened for incognito browsing only from incognito tabs, and data collected from web pages opened for regular browsing only from regular tabs.",
+		"description": "Description for the control in the Incognito tab in the Options window."
+	},
+	
+	"msg_reset_defaults": {
+		"message": "Do you want to reset controls on this page to their default settings?",
+		"description": "Message that asks a user whether or not they want to set controls on a page in the Options window to their defaults. It will be displayed in a modal window and a user will have an option of RESET or Cancel."
+	},
+	"msg_title_reset_defaults": {
+		"message": "Confirm Controls Reset",
+		"description": "Title bar message for the modal dialog that confirms resetting of controls to their defaults. Keep it short."
+	},
+
+	"msg_lgndStgCpcty" : {
+		"message": "Memory Capacity",
+		"description": "Short name for the control in the Storage tab in the Options window."
+	},
+	"msg_lgndPersistStg" : {
+		"message": "Persistent Storage",
+		"description": "Short name for the control in the Storage tab in the Options window."
+	},
+
+	"msg_descLgndPersistStg" : {
+		"message": "When the browser is closed this app can keep collected data in the local persistent storage so that it is available when you open the browser again.",
+		"description": "Description text displayed in the Storage tab in the Options window."
+	},
+	"radStgTypeNone" : {
+		"message": "Do not save in persistent storage",
+		"description": "Name for the control in the Storage tab in the Options window."
+	},
+	"desc_radStgTypeNone" : {
+		"message": "When the last browser window is closed all collected data will be discarded.",
+		"description": "Description for control in the Storage tab in the Options window."
+	},
+	"radStgTypeLocalStorage" : {
+		"message": "Save in local storage",
+		"description": "Name for the control in the Storage tab in the Options window."
+	},
+	"desc_radStgTypeLocalStorage" : {
+		"message": "All data collected from web pages will be saved in HTML5 local storage and restored when the browser is re-opened.",
+		"description": "Description for control in the Storage tab in the Options window."
+	},
+	"radStgTypeChromeLocal" : {
+		"message": "Save in Chrome-specific local storage",
+		"description": "Name for the control in the Storage tab in the Options window."
+	},
+	"desc_radStgTypeChromeLocal" : {
+		"message": "All data collected from web pages will be saved in Chrome-specific local storage and restored when the browser is re-opened.",
+		"description": "Description for control in the Storage tab in the Options window."
+	},
+	"msg_lgndUsedStrg" : {
+		"message": "Persistent Storage Usage",
+		"description": "Short name for the control in the Storage tab in the Options window."
+	},
+	"descLgndUsedStrg" : {
+		"message": "When persistent storage is full, this app will attempt to discard some of the collected data to make it fit the available capacity.",
+		"description": "Description text displayed in the Storage tab in the Options window."
+	},
+	"ftr_lgndPersistStg" : {
+		"message": "All data is stored locally, i.e. it does not leave your local computer. Although keep in mind that the data is stored unencrypted in plain text form!",
+		"description": "Description text displayed in the Storage tab in the Options window."
+	},
+	
+	"msg_descLgndStgCpcty" : {
+		"message": "Defines how much data collected from web pages to store in memory before recycling it.",
+		"description": "Description text displayed in the Memory tab in the Options window."
+	},
+	"msg_idSldrMaxNumPgs" : {
+		"message": "Maximum number of web pages:",
+		"description": "Short name for the control in the Memory tab in the Options window."
+	},
+	"desc_idSldrMaxNumPgs" : {
+		"message": "Maximum number of web pages to keep collected data for. When this limit is exceeded, web pages with older data will be discarded.",
+		"description": "Description text displayed in the Memory tab in the Options window."
+	},
+	"msg_idSldrMaxNumTbxPerPg" : {
+		"message": "Maximum number of text boxes per web page:",
+		"description": "Short name for the control in the Memory tab in the Options window."
+	},
+	"desc_idSldrMaxNumTbxPerPg" : {
+		"message": "Maximum number of text boxes per web page to collect data from. If the number of text boxes on a page exceeds this limit, data from them will not be collected and a warning will be displayed in the popup window for this app.",
+		"description": "Description text displayed in the Memory tab in the Options window."
+	},
+	"msg_idSldrMaxNumEntrysPerTbx" : {
+		"message": "Maximum number of entries per text box:",
+		"description": "Short name for the control in the Memory tab in the Options window."
+	},
+	"desc_idSldrMaxNumEntrysPerTbx" : {
+		"message": "Maximum number of text entries to store per single text box. When this limit is exceeded any old text entries will be discarded.",
+		"description": "Description text displayed in the Memory tab in the Options window."
+	},
+	"msg_idFtrMemColWbPgs" : {
+		"message": "Collected number of web pages:",
+		"description": "Short name for the control in the Memory tab in the Options window. It will be followed by the actual number of web pages."
+	},
+	"lnk_apply_changes" : {
+		"message": "Apply settings",
+		"description": "Short name for the control in the Memory tab in the Options window."
+	},
+	"promptLnk_apply_changes" : {
+		"message": "Applies settings from this page to collected data in memory. Otherwise changes will take effect only when new data is collected.",
+		"description": "User prompt for the control in the Memory tab in the Options window."
+	},
+
+	"slider_less": {
+		"message": "Less",
+		"description": "Text for slider for 'Less' range"
+	},
+	"slider_more": {
+		"message": "More",
+		"description": "Text for slider for 'More' range"
+	},
+	"slider_faster": {
+		"message": "Faster",
+		"description": "Text for slider for 'Faster' range"
+	},
+	"slider_slower": {
+		"message": "Slower",
+		"description": "Text for slider for 'Slower' range"
+	},
+
+	"msg_lgndClear" : {
+		"message": "Clear Storage",
+		"description": "Short name for the control in the Storage tab in the Options window."
+	},
+	"msg_descLgndClear" : {
+		"message": "Note: Once removed the data cannot be restored!",
+		"description": "Description text displayed in the Storage tab in the Options window."
+	},
+	"lnk_clear_all": {
+		"message": "Remove all collected data",
+		"description": "Link that is displayed in the Storage tab in the Options window."
+	},
+	"lnk_clear_incog": {
+		"message": "Remove all data collected for incognito pages only",
+		"description": "Link that is displayed in the Storage tab in the Options window."
+	},
+	
+	"msg_lgndAdvMemOps" : {
+		"message": "Advanced Memory Management",
+		"description": "Short name for the control in the Memory tab in the Options window."
+	},
+	"msg_descLgndAdvMemOps" : {
+		"message": "These controls allow direct access to the storage object.",
+		"description": "Description text displayed in the Memory tab in the Options window."
+	},
+	"lnk_export_all": {
+		"message": "Export collected data",
+		"description": "Link that is displayed in the Memory tab in the Options window."
+	},
+	"lnk_import_all": {
+		"message": "Import collected data",
+		"description": "Link that is displayed in the Memory tab in the Options window."
+	},
+	
+	"msg_expMsg_title" : {
+		"message": "Export Collected Data",
+		"description": "Title for the 'Export collected data' modal window that may be displayed from the Memory tab in the Options window."
+	},
+	"msg_expMsg_message" : {
+		"message": "Raw JSON with collected data:",
+		"description": "Message for the 'Export collected data' modal window that may be displayed from the Memory tab in the Options window."
+	},
+
+	"msg_impMsg_title" : {
+		"message": "Import Collected Data",
+		"description": "Title for the 'Import collected data' modal window that may be displayed from the Memory tab in the Options window."
+	},
+	"msg_impMsg_message" : {
+		"message": "Paste raw JSON with collected data:",
+		"description": "Message for the 'Export collected data' modal window that may be displayed from the Memory tab in the Options window."
+	},
+	"msg_impMsg_err01" : {
+		"message": "Provide JSON data to import...",
+		"description": "Error message that may be displayed in the 'Import collected data' modal window from the Memory tab in the Options window."
+	},
+	"msg_impMsg_err02" : {
+		"message": "Parsing error",
+		"description": "Error message that may be displayed in the 'Import data' modal window from the Options window."
+	},
+	"msg_impMsg_err03" : {
+		"message": "Bad data",
+		"description": "Error message that may be displayed in the 'Import data' modal window from the Options window."
+	},
+	"msg_impMsg_err04" : {
+		"message": "Bad version",
+		"description": "Error message that may be displayed in the 'Import data' modal window from the Options window."
+	},
+	"msg_impMsg_err05" : {
+		"message": "Cannot import from newer version: #V#. Update this app first.",
+		"description": "Error message that may be displayed in the 'Import data' modal window from the Options window. #V# will be replaced with the version number."
+	},
+	"msg_impMsg_last_msg" : {
+		"message": "The following is ready for importing:\n\n<i>Version: #V#\nExported: #D#\nWeb Pages: #P#</i>\n\n<b>WARNING:</b> Importing will overwrite your currently collected data.\n\nDo you want to import?",
+		"description": "Message for the 'Export collected data' modal window that may be displayed from the Memory tab in the Options window. #V# will be replaced with the version number, #D# - with date/time, #P# - with number of pages. Make sure to preserve HTML formatting links: <i>, <b> as well as the new-line symbols: \n"
+	},
+
+	"msg_removeAll_title" : {
+		"message": "Data Removal Confirmation",
+		"description": "Title for the modal window that confirms data removal."
+	},
+	"msg_removeAll_message" : {
+		"message": "<b>WARNING:</b> You are about to permanently remove all collected data.\n\nDo you want to continue?",
+		"description": "Message for the modal window that confirms data removal. Make sure to preserve HTML formatting links: <i>, <b> as well as the new-line symbols: \n"
+	},
+	"msg_removeAll_Incog_message" : {
+		"message": "<b>WARNING:</b> You are about to permanently remove all data collected from incognito tabs. Note that data collected from regular tabs will not be affected.\n\nDo you want to continue?",
+		"description": "Message for the modal window that confirms data removal. Make sure to preserve HTML formatting links: <i>, <b> as well as the new-line symbols: \n"
+	},
+
+	"msg_chkUseNtvScrlBrs" : {
+		"message": "Use web browser's native scrollbars in the popup window",
+		"description": "Short name for the control in the Advanced tab in the Options window."
+	},
+	"desc_chkUseNtvScrlBrs" : {
+		"message": "When checked will use scrollbars in the popup window that are supplied by the web browser.",
+		"description": "Description for the control in the Advanced tab in the Options window."
+	},
+	"msg_lgndCopyTxtOpt" : {
+		"message": "Clipboard Copy Options",
+		"description": "Short name for the control in the Advanced tab in the Options window."
+	},
+	"desc_lgndCopyTxtOpt" : {
+		"message": "Defines how this app should treat newlines when copying text to the Clipboard:",
+		"description": "Description for the control in the Advanced tab in the Options window."
+	},
+	"sel_CopyTxtOpt_0" : {
+		"message": "Do not change original newlines",
+		"description": "Selection for the control in the Advanced tab in the Options window."
+	},
+	"sel_CopyTxtOpt_1" : {
+		"message": "Convert to Windows newlines (CR+LF)",
+		"description": "Selection for the control in the Advanced tab in the Options window."
+	},
+	"sel_CopyTxtOpt_2" : {
+		"message": "Convert to OS X/Linux newlines (LF)",
+		"description": "Selection for the control in the Advanced tab in the Options window."
+	},
+	"sel_CopyTxtOpt_3" : {
+		"message": "Convert to Apple II/OS-9 newlines (CR)",
+		"description": "Selection for the control in the Advanced tab in the Options window."
+	},
+
+	"msg_lgndExceptions" : {
+		"message": "Data Collection Exceptions",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"msg_descLgndExceptions" : {
+		"message": "Data collection will be turned off from the following URLs:",
+		"description": "Description for the control in the Exceptions tab in the Options window."
+	},
+	"xcptsHdr_urls" : {
+		"message": "Exceptions",
+		"description": "Header name for the exceptions list in the Exceptions tab in the Options window."
+	},
+	"lnk_xcpts_edit" : {
+		"message": "Edit",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"lnk_xcpts_remove" : {
+		"message": "Remove",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"lnk_xcpts_add_new" : {
+		"message": "Add",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"lnk_xcpts_addCurrent" : {
+		"message": "Add last visited URL",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"xcptsUseRegExp" : {
+		"message": "Contains Regular Expressions",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"xcptsSelType" : {
+		"message": "Type:",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"xcptsNoExcepts" : {
+		"message": "There are no exceptions set up yet...",
+		"description": "Short description for the control in the Exceptions tab in the Options window."
+	},
+	"sel_XcptsSelType_0" : {
+		"message": "Match entire URL",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"desc_XcptsSelType_0" : {
+		"message": "Data collection is turned off when the entire web page URL matches the string above in a case insensitive way.",
+		"description": "Short description for the control in the Exceptions tab in the Options window."
+	},
+	"sel_XcptsSelType_1" : {
+		"message": "Match site only, ignore www",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"desc_XcptsSelType_1" : {
+		"message": "Data collection is turned off when the host name of the web page URL matches the string above in a case insensitive way. The www subdomain of the web page URL is ignored. (Note that the host name is matched against all the subdomains of the URL.)",
+		"description": "Short description for the control in the Exceptions tab in the Options window."
+	},
+	"sel_XcptsSelType_2" : {
+		"message": "Match site only",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"desc_XcptsSelType_2" : {
+		"message": "Data collection is turned off when the host name of the web page URL matches the string above in a case insensitive way. (Note that the host name is matched against all the subdomains of the URL.)",
+		"description": "Short description for the control in the Exceptions tab in the Options window."
+	},
+	"sel_XcptsSelType_3" : {
+		"message": "Match page only, ignore www",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"desc_XcptsSelType_3" : {
+		"message": "Data collection is turned off when the host name and the path name of the web page URL match the string above in a case insensitive way. The www subdomain of the web page URL is ignored. (Note that the host name is matched against all the subdomains of the URL.)",
+		"description": "Short description for the control in the Exceptions tab in the Options window."
+	},
+	"sel_XcptsSelType_4" : {
+		"message": "Match page only",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"desc_XcptsSelType_4" : {
+		"message": "Data collection is turned off when the host name and the path name of the web page URL match the string above in a case insensitive way. (Note that the host name is matched against all the subdomains of the URL.)",
+		"description": "Short description for the control in the Exceptions tab in the Options window."
+	},
+	"sel_XcptsUsesRegExp" : {
+		"message": "uses Regular Expressions",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"msg_XcptAdd_title" : {
+		"message": "Add Exception",
+		"description": "Title for the 'Add Exception URL' modal window that may be displayed from the Exceptions tab in the Options window."
+	},
+	"msg_XcptEdit_title" : {
+		"message": "Edit Exception",
+		"description": "Title for the 'Edit Exception URL' modal window that may be displayed from the Exceptions tab in the Options window."
+	},
+	"msg_lgndXcpts_Params" : {
+		"message": "Exception URL",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"msg_example" : {
+		"message": "Example:",
+		"description": "Short name for the control in the Exceptions tab in the Options window."
+	},
+	"msg_lgndXcpts_msg01" : {
+		"message": "For exception URL:",
+		"description": "Short name for the control in the Exceptions tab in the Options window. It will be followed by an example URL, thus the ending colon."
+	},
+	"msg_lgndXcpts_msg02" : {
+		"message": "The following web pages will match:",
+		"description": "Short name for the control in the Exceptions tab in the Options window. It will be followed by the actual examples, thus the ending colon."
+	},
+	"err_xcpts_msg01" : {
+		"message": "URL is required",
+		"description": "Short error description that may be displaying in the Exceptions tab in the Options window."
+	},
+	"err_xcpts_msg02" : {
+		"message": "Exception with such URL already exists",
+		"description": "Short error description that may be displaying in the Exceptions tab in the Options window."
+	},
+	"err_xcpts_msg03" : {
+		"message": "Cannot save. Exception no longer exists",
+		"description": "Short error description that may be displaying in the Exceptions tab in the Options window."
+	},
+	"err_xcpts_msg04" : {
+		"message": "Regular Expression in URL is invalid",
+		"description": "Short error description that may be displaying in the Exceptions tab in the Options window."
+	},
+	"msg_title_remove": {
+		"message": "Confirm Removal",
+		"description": "Title bar message for the modal dialog that confirms removal. Keep it short."
+	},
+	"msg_remove_xcpts": {
+		"message": "Do you want to permanently remove #N# exception(s) checked in the list?",
+		"description": "Message that is shown to confirm removal of checked exceptions from the Exceptions tab in the Options window. #N# will be replaced with the actual number of exceptions being removed."
+	},
+
+	"msg_lgndAdvDataMngmnt" : {
+		"message": "Advanced Data Management",
+		"description": "Short name for the control in the Advanced tab in the Options window."
+	},
+	"desc_lgndAdvDataMngmnt" : {
+		"message": "Changing these controls may impact performance of this app!",
+		"description": "Description text displayed in the Advanced tab in the Options window."
+	},
+	"msg_idSldrDataColFreq" : {
+		"message": "Frequency of data collection from web pages:",
+		"description": "Short name for the control in the Advanced tab in the Options window."
+	},
+	"desc_idSldrDataColFreq" : {
+		"message": "Frequency with which this app will poll web pages for any changes in text boxes and input fields, and record it as 'collected data'. Keep in mind that setting this value too low may slow down your web browser and unnecessarily use up memory. Setting it too high may prevent this app from registering changes in text boxes. Unless you know what you're doing, it is recommended that you keep this setting at its default value!",
+		"description": "Description text displayed in the Advanced tab in the Options window."
+	},
+	"msg_idSldrPersistSaveFreq" : {
+		"message": "Frequency of saving collected data in persistent storage:",
+		"description": "Short name for the control in the Advanced tab in the Options window."
+	},
+	"desc_idSldrPersistSaveFreq" : {
+		"message": "Frequency with which this app will attempt to save collected data in persistent storage. Keep in mind that setting this value too low may slow down your web browser. Setting it too high may prevent this app from duly saving changes in persistent storage. Unless you know what you're doing, it is recommended that you keep this setting at its default value!",
+		"description": "Description text displayed in the Advanced tab in the Options window."
+	},
+	"msg_chkIdAndNm" : {
+		"message": "Require 'id' and 'name' of text boxes to be set to collect data",
+		"description": "Short name for the checkbox in the Advanced tab in the Options window."
+	},
+	"desc_chkIdAndNm" : {
+		"message": "When checked will collect data from text boxes and input fields in web pages only if their HTML 'id' and 'name' attributes are set.",
+		"description": "Description for the checkbox in the Advanced tab in the Options window."
+	},
+	"abbrv_ms": {
+		"message": "ms",
+		"description": "Abbreviation for 'milliseconds'"
+	},
+	"abbrv_sec": {
+		"message": "s",
+		"description": "Abbreviation for 'seconds'"
+	},
+	"abbrv_min": {
+		"message": "m",
+		"description": "Abbreviation for 'minutes'"
+	},
+	
+	"msg_lgndAdvSttgsMgmt" : {
+		"message": "Advanced Settings Management",
+		"description": "Short name for the control in the Advanced tab in the Options window."
+	},
+	"msg_descLgndAdvSttgsMgmt" : {
+		"message": "These controls allow direct access to the settings.",
+		"description": "Description text displayed in the Advanced tab in the Options window."
+	},
+	"lnk_export_sttgs_all": {
+		"message": "Export all settings",
+		"description": "Link that is displayed in the Advanced tab in the Options window."
+	},
+	"lnk_import_sttgs_all": {
+		"message": "Import all settings",
+		"description": "Link that is displayed in the Advanced tab in the Options window."
+	},
+	"msg_expSttgsMsg_title" : {
+		"message": "Export Settings",
+		"description": "Title for the 'Export collected data' modal window that may be displayed from the Advanced tab in the Options window."
+	},
+	"msg_expSttgsMsg_message" : {
+		"message": "Raw settings data:",
+		"description": "Message for the 'Export collected data' modal window that may be displayed from the Advanced tab in the Options window."
+	},
+	"msg_impSttgsMsg_title" : {
+		"message": "Import Settings",
+		"description": "Title for the 'Import Settings' modal window that may be displayed from the Advanced tab in the Options window."
+	},
+	"msg_impSttgsMsg_message" : {
+		"message": "Paste previously exported settings data:",
+		"description": "Message for the 'Export Settings' modal window that may be displayed from the Advanced tab in the Options window."
+	},
+	"msg_impSttgsMsg_err01" : {
+		"message": "Provide settings data to import...",
+		"description": "Error message that may be displayed in the 'Import Settings' modal window from the Advanced tab in the Options window."
+	},
+	"msg_impSttgsMsg_last_msg" : {
+		"message": "The following settings are ready for importing:\n\n<i>Version: #V#\nExported: #D#</i>\n\n<b>WARNING:</b> Importing will overwrite all of your current settings.\n\nDo you want to import?",
+		"description": "Message for the 'Export Settings' modal window that may be displayed from the Advanced tab in the Options window. #V# will be replaced with the version number, #D# - with date/time. Make sure to preserve HTML formatting links: <i>, <b> as well as the new-line symbols: \n"
+	},
+
+
+
+	"info_tabAbout" : {
+		"message": "About",
+		"description": "Name of the 'About' tab in the Info page"
+	},
+	"info_tabManual" : {
+		"message": "Manual",
+		"description": "Name of the 'Manual' tab in the Info page"
+	},
+	"info_tabTranslate" : {
+		"message": "Translation",
+		"description": "Name of the 'Translation' tab in the Info page"
+	},
+	"info_tabFeedback" : {
+		"message": "Feedback",
+		"description": "Name of the 'Feedback' tab in the Info page"
+	},
+	
+	"msg_lgndTranslate" : {
+		"message": "User Interface Translation",
+		"description": "Short name for the control in the Translate tab in the Info window."
+	},
+	"desc_lgndTranslate" : {
+		"message": "Thank you for volunteering to translate the user interface for the Formalizr! It's been already translated to the following languages:",
+		"description": "Description for the control in the Translate tab in the Info window."
+	},
+	"desc_lgndTranslate_p1" : {
+		"message": "To offer your translation please follow these steps:",
+		"description": "Description for the control in the Translate tab in the Info window."
+	},
+	"translateStage1" : {
+		"message": "Pick the language that you want to translate to:",
+		"description": "Description for the control in the Translate tab in the Info window."
+	},
+	"translateStage2" : {
+		"message": "<a id='lnkContactTranslate'>Contact us</a> through our website.",
+		"description": "Description for the control in the Translate tab in the Info window. Make sure to preserve the html link unchanged."
+	},
+	"ftr_lgndTranslate" : {
+		"message": "To qualify for translation you must be fluent in English, as well as in the language that you're translating to. Inaccurate translations may be denied. Note that translation is a voluntary offer. You will not get paid for your translation. As the acknowledgment of your work, we will include your name and a link to your web site in the credits.",
+		"description": "Description for the control in the Translate tab in the Info window."
+	},
+
+	"msg_lgndContactUs" : {
+		"message": "Contact Us",
+		"description": "Short name for the control in the Feedback tab in the Info window."
+	},
+	"desc_lgndContactUs" : {
+		"message": "Use this section to send us your feedback about this app. Please don't use it to submit bug reports!",
+		"description": "Description for the control in the Feedback tab in the Info window."
+	},
+	"desc_FAQpage" : {
+		"message": "First, check our <a id='lnkFAQPage'>FAQ page</a> to make sure that your question wasn't asked before.",
+		"description": "Description for the control in the Feedback tab in the Info window. Make sure to preserve the html link."
+	},
+	"desc_contactUs" : {
+		"message": "Or, <a id='lnkContactGeneral'>contact us</a> through our website.",
+		"description": "Description for the control in the Feedback tab in the Info window. Make sure to preserve the html link."
+	},
+	"msg_lgndReportBug" : {
+		"message": "Report Bugs",
+		"description": "Short name for the control in the Feedback tab in the Info window."
+	},
+	"desc_lgndReportBug" : {
+		"message": "Use this section to send us your bug report about this app. To speed up processing of your report, please be as specific about the bug as possible!",
+		"description": "Description for the control in the Feedback tab in the Info window."
+	},
+	"desc_ReportBug" : {
+		"message": "To submit your bug report follow these steps:",
+		"description": "Description for the control in the Feedback tab in the Info window."
+	},
+	"reportBugStage1" : {
+		"message": "Provide URL for the page where the bug happens:",
+		"description": "Description for the control in the Feedback tab in the Info window."
+	},
+	"reportBugStage2" : {
+		"message": "Get a snapshot of the app settings:",
+		"description": "Description for the control in the Feedback tab in the Info window."
+	},
+	"collectReport" : {
+		"message": "<a id='lnkCollectReport'>Collect report</a>",
+		"description": "Description for the control in the Feedback tab in the Info window. Make sure to preserve the html link."
+	},
+	"reportBugStage3" : {
+		"message": "Visit <a id='lnkContactBugs'>our website</a>, and paste the report. Please make sure to describe the bug, and then send it.",
+		"description": "Description for the control in the Feedback tab in the Info window."
+	},
+	"ftr_lgndReportBug" : {
+		"message": "All bug reports submitted to our web server will remain private. Please make sure to remove any potentially sensitive information that you may not want to send. All bug reports received at our web server will not be disclosed to any outside vendors or third-parties.",
+		"description": "Description for the control in the Translate tab in the Info window."
+	},
+	"msg_lgndDonate" : {
+		"message": "Donation",
+		"description": "Short name for the control in the Feedback tab in the Info window."
+	},
+	"desc_lgndDonate" : {
+		"message": "We appreciate your support and willingness to make a donation to future development of our free software!",
+		"description": "Description for the control in the Feedback tab in the Info window."
+	},
+	"desc_Donate" : {
+		"message": "<a id='lnkDonate'>Make a donation</a>",
+		"description": "Description for the control in the Feedback tab in the Info window. Make sure to preserve the html link."
+	},
+
+	"msg_lgndAbout" : {
+		"message": "About This App",
+		"description": "Short name for the control in the About tab in the Info window."
+	},
+	"desc_lgndAbout_p1" : {
+		"message": "Formalizr is the web browser extension designed to remember what you type in web pages. This can come handy if a page crashes or reloads without submitting what you typed up in it. With the Formalizr you can easily recover the lost text.",
+		"description": "Description for the control in the About tab in the Info window."
+	},
+	"desc_lgndAbout_p2" : {
+		"message": "To learn more check the <a href='tabManual'>manual</a>, or view the following screencast:",
+		"description": "Description for the control in the About tab in the Info window."
+	},
+	"vidUrl_Intro" : {
+		"message": "http://www.youtube.com/embed/qM35ZldWWl8",
+		"description": "URL for the Introductory tutorial video."
+	},
+	"playFullScreen" : {
+		"message": "Play screencast fullscreen",
+		"description": "Short name for the control in the About tab in the Info window."
+	},
+
+	"msg_lgndBasicOp" : {
+		"message": "Basic Operation",
+		"description": "Short name for the control in the Manual tab in the Info window."
+	},
+	"txtManual01" : {
+		"message": "<p>As you type into text boxes in web pages: <img id='imgMan_MultilineTextbox' /> Formalizr will try to remember the changes you make. This will be reflected in the app's badge icon <img id='imgMan_BadgeIconWithCount1' /> that will display the number of text boxes that it collects input from.</p>\n		<p>To check the state of the Formalizr app look at its badge icon:\n		<span><img id='imgMan_BadgeIconDefault' /> Default state, with no data collection on the page.</span>\n		<span><img id='imgMan_BadgeIconWithCount4' /> Collecting data from 4 text boxes on the page.</span>\n		<span><img id='imgMan_BadgeIconIncognito' /> Incognito browsing (must be enabled in the web browser settings.)</span>\n		<span><img id='imgMan_BadgeIconInactive' /> Formalizr is inactive (for example, due to unsupported page URL.)</span>\n		<span><img id='imgMan_BadgeIconDisabled' /> Data collection is turned off on all web pages.</span>\n		<span><img id='imgMan_BadgeIconException' /> Data is not collected on the page due to the Site or Page Exception.</span></p>\n		<p>You can view all collected data by clicking the Formalizr badge icon <img id='imgMan_BadgeIconDefault' /> to show the popup window: <img id='imgMan_PopupOpen' /> Click on the page title <img id='imgMan_PageTitle' /> to open the data collected for it: <img id='imgMan_PageCollectedData' /> Use the slider <img id='imgMan_PageSlider' /> to see changes to collected text over time as you typed it. If the text doesn't fit into the box use the corner gripper <img id='imgMan_PageBoxGripper' /> to resize it.</p>\n		<p>To retrieve previously typed text, click the 'Copy' link undernearth <img id='imgMan_PageCopyLink' /> to copy it to the Clipboard. You can then paste it anywhere else. You can also click the 'Copy All' button <img id='imgMan_PopupCopyAll' /> to copy additional data from all available text boxes on the page.</p>\n		<p>If you are at the web page where the data was collected from, you can use the 'Form Fill' button <img id='imgMan_PopupFormFill' /> to restore all collected data straight into the web page itself. You can get to the original page where the data was collected from by clicking the URL link <img id='imgMan_PopupURLLink' /> in the page title.</p>\n		<p>To remove data collected for the page, click the 'Remove Page Data' button <img id='imgMan_PopupRemovePageData' /> and confirm removal. (Make sure to do so while not browsing the page whose data you're removing.)</p>\n		<p>Use the 'Off' button <img id='imgMan_PopupOffButton' /> to turn off data collection from all web pages. When data collection is turned off: <img id='imgMan_PopupDisabled' /> use the 'On' button <img id='imgMan_PopupOnButton' /> to turn data collection back on. Additionally you can <kbd>Shift</kbd>-click the 'On/Off' button <img id='imgMan_PopupShiftOffButton' /> to toggle the Site Exception for the current page (or when data collection is turned off for a specific web site.) Likewise, you can <kbd>&#8984;</kbd>+<kbd>Shift</kbd>-click (or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>-click on Windows/Linux) the 'On/Off' button <img id='imgMan_PopupCommandShiftOffButton' /> to toggle the Page Exception for the current page (or when data collection is turned off for a specific web page.) Note that Exceptions can be adjusted later in the Options window.</p>\n		<p>Use the 'Show options' button <img id='imgMan_PopupOptionsButton' /> to display the Options window that allows advanced users to adjust Formalizr settings. Or, click the 'Show app information' button <img id='imgMan_PopupInformationButton' /> to learn additional information about the Formalizr or to contact our support team.</p>\n		There are some circumstances when Formalizr will not be able to collect data from the web page:\n		<ul>\n		<li>Data is not collected from Java, Flash, Silverlight or similar plug-ins.</li>\n		<li>Data may not be collected from pages supporting their own draft saving (such as Google Docs, Microsoft Office Online, and others.)</li>\n		<li>Data may not be collected from text boxes supporting their own input formatting (such as specialized html markup input, etc.)</li>\n		</ul>",
+		"description": "HTML markup for the main manual available to the user from the Manual tab in the Info window."
+	},
+	"ftr_lgndBasicOp" : {
+		"message": "For additional information check our <a id='lnkFAQPage2'>FAQ page</a>.",
+		"description": "Short name for the control in the Manual tab in the Info window."
+	},
+
+	"msg_lgndLegal" : {
+		"message": "Legal & Data Collection Policy",
+		"description": "Short name for the control in the About tab in the Info window."
+	},
+	"txtLegal" : {
+		"message": "Formalizr extension (later the \"software\") was developed with the use of the following technologies provided under the MIT License:\n - jQuery library\n - jQuery UI library\nFor details on both licenses go to https://jquery.org/license\n\nProgramming & design by Dennis A. Babkin (later the \"author\".)\nCopyright (C) 2014-2019.\n\nData Collection Policy\n==================================\nThe software employs collection of the data provided by the end-user during their interaction with web pages loaded into the web browser (Google Chrome), that complies with the software's main function, or the software motto, \"Remembers what you type, in case of a page crash.\" The data collected (later referred to as the \"data\") consists strictly of the following: a) Input text obtained from the keyboard and/or mouse drag-and-drop operations, or b) text pasted into web forms from the Clipboard, or c) text inserted into web forms automatically by scripts running on the page or by other web browser extensions.\n\nThe software will collect data ONLY from the following types of web pages, with: a) standard http URLs, and b) secure https URLs. Data from any other web pages, having a different URL protocols, will not be collected, including but not limited to: ftp and other protocols, as well as from other web browser extensions, and locally opened files.\n\nThe software does NOT collect the data from sources outside the web browser that hosts it (i.e. Google Chrome), including: a) other web browsers (such as Mozilla Firefox, Safari, Internet Explorer, etc.) or b) other running programs, or c) parts and components of the operating system itself.\n\nSensitive Data Collection Prevention\n==================================\nThe software will NOT attempt to collect any input from the password fields, although if such fields are mislabeled in the html markup on a page, the data may be collected from them as well. Since there's no reliable way to automate detection of the end-user's private and/or sensitive data, the end-user must be aware that some of their sensitive data, not specifically provided via password fields, may be inadvertently collected by the software, including but not limited to: credit card numbers, social security numbers, driver's license numbers, bank account numbers and other sensitive information that may be unintentionally picked up from the form fields as the end-user types it in. In such case the software provides the end-user with easy means to manually delete any collected sensitive data, as well as the means to prevent any further collection of data from specific web pages with the use of the \"URL Exceptions,\" as well as the ability to temporarily disable the software, and the ability to wipe out all collected data. It is assumed to be the responsibility of the end-user to track any inadvertent collection of the sensitive information by the software, as well as the proper manual disposal of such information by the end-user.\n\nData Storage Policy\n==================================\nBy default the data collected by the software will be stored in the local persistent storage where the software is installed and running. The configuration and settings of the Google Chrome web browser will determine the exact location of the file on the local physical disk where the data will be stored. The software by itself will NOT attempt to offload the collected data from the local storage where the software is installed and running. Note that in some circumstances, depending on the configuration of the operating system where the web browser hosting the software is installed, the file storing the data collected by the software may be uploaded to the end-user's offsite or \"cloud\" account, such as when the software is installed on the operating system supporting such feature or with the use of other software, such as Google Drive, Dropbox, One Drive, etc.; or a copy of the file storing the data collected by the software may be created and moved off the local computer by a backup software; or if the operating system where the software is running supports \"roaming user profiles,\" such configuration may allow the file storing data collected by the software to be shared between several physical machines. Note that the list of circumstances given above should not be considered as all-encompassing, as there may be other possibilities how the file storing the data collected by the software could be potentially offloaded from the local storage by means outside of the software's control. The software by itself WILL NOT attempt to offload your collected data. If such is important, it is the end-user's responsibility to prevent storage of the private and/or sensitive information collected by the software using the means outlined above.\n\nThe software provides means for the end-user to disable placement of the collected data in the persistent storage, i.e. into a file on the local physical disk. If such option is enabled, the software will only collect data in the system volatile memory (or RAM) that will be discarded as soon as the last web browser window hosting the software is closed. Note that in this case, it is also possible for a malicious software running alongside the web browser to extract the data collected by the software from the system RAM. If such is important, it is the end-user's responsibility to prevent storage of the private and/or sensitive information collected by the software using the means outlined above.\n\nPrivacy Policy\n==================================\nThe software will NOT attempt to offload, distribute, broadcast, sell or in any way use the collected data for the purpose other than providing means for the end-user to restore collected information upon their sole discretion. The software was designed with the privacy of the end-user's data in mind, i.e. it attempts to the best of the available capabilities of the programming language (i.e. JavaScript) to prevent offloading or \"spreading\" of the collected data from the local system where the software is installed and running.\n\nIT IS IMPORTANT TO NOTE that the data collected by the software IS NOT stored in encrypted form!\n\nTo provide transparency, the authors of the software are agreeing to disclose any technical details about the structure of the programming code used to design the software. Make sure to submit your specific request at dennisbabkin.com/contact\n\nIncognito Browsing\n==================================\nBy default the software honors the \"incognito\" mode of the web browser by not storing in persistent storage or displaying the data collected during the incognito browsing. The software provides additional means for the end-user to disable data collection during the incognito browsing altogether, as well as a \"more relaxed\" option to allow data collection and storage of the collected data in the persistent storage upon the end-user's additional selection.\n\nSoftware Warranty & Support\n==================================\nThe software is supplied to you free of charge, without ANY expressed or implied warranties from the authors or distributors of the software. You install and use the software \"AS-IS,\" upon your sole discretion and judgment, fully aware of the conditions and limitations outlined herein. The technical support provided for the software is done so upon the author's free will and should not be considered an implied responsibility from the authors or distributors.\n\nRelease of Liability\n==================================\nBy using the software the END-USER AGREES TO RELEASE any responsibility from the authors or distributors of the software for the damages, or the loss or misuse of data that may be incurred by the software, including but not limited to the loss or exposure of the end-user's sensitive or private information. Guarding such information is assumed to be the sole responsibility of the end-user. It is also assumed that the end-user is fully aware of the limitations of the software outlined above.\n\nIF YOU DO NOT AGREE WITH ANY OF THE STATEMENTS & CONDITIONS LISTED ABOVE, PLEASE DO NOT USE THE SOFTWARE. BY CONTINUING TO USE THE SOFTWARE YOU ISSUE YOUR FULL AGREEMENT WITH THE STATEMENTS OUTLINED IN THIS DOCUMENT.",
+		"description": "Legal document outlining the use of the software. Unless specific legal translation is available, it MUST BE left un-translated."
+	}
+
+}
